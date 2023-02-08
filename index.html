@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora 1.0</title>
+    <link rel="stylesheet" href="./assets/css/style.css" class="css">
+</head>
+
+<body>
+
+    <section class="container">
+
+        <h1 class="tituloPrincipal">Calculadora</h1>
+
+            <form action="/" id="formulario" method="post">
+
+                <label for="somaAtual">Informe Algum Numero Para Somar</label>
+                <input type="number" id="somaAtual" name="somaAtual">
+
+                    <label for="outroNumeroAtual">Informe Outro Número Para Somar</label>
+                    <input type="number" id="outroNumeroAtual" name="outroNumeroAtual">
+
+                <label for="somaMult">Informe Algum Numero Para Multiplicar</label>
+                <input type="number" id="somaMult" name="somaMult">
+
+                    <label for="outroNumeroMult">Informe Outro Número Para Multiplicar</label>
+                    <input type="number" id="outroNumeroMult" name="outroNumeroMult">
+
+                <label for="somaDivisao">Informe Algum Número Para Dividir</label>
+                <input type="number" id="somaDivisao" name="somaDivisao">
+
+                    <label for="outroNumeroDividir">Informe Outro Número Para Dividir</label>
+                    <input type="number" id="outroNumeroDividir" name="outroNumeroDividir">
+
+                <button>Enviar</button>
+
+            </form>
+
+            <div id='resultado'></div>
+
+    </section>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
